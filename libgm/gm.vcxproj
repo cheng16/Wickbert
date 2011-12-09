@@ -1,0 +1,211 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{83CC78D8-85AD-47A8-ACB2-C05E4EA6D5B4}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>gm</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Computer Science\CS499\Wickbert\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gm.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gm</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Computer Science\CS499\Wickbert\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gm.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gm</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Computer Science\CS499\Wickbert\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gm.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gm</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Computer Science\CS499\Wickbert\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gm.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gm</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/Debug/gm.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/Release/gm.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/MinSizeRel/gm.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/RelWithDebInfo/gm.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/libgm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\libgm\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Computer Science/CS499/Wickbert/libgm/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\libgm\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\libgm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Computer Science\CS499\Wickbert\libgm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/libgm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\libgm\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Computer Science/CS499/Wickbert/libgm/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\libgm\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\libgm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Computer Science\CS499\Wickbert\libgm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/libgm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\libgm\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Computer Science/CS499/Wickbert/libgm/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\libgm\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\libgm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Computer Science\CS499\Wickbert\libgm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/libgm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\libgm\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Computer Science/CS499/Wickbert/libgm/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\libgm\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\libgm\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Computer Science\CS499\Wickbert\libgm\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gmMat3.cpp" />
+    <ClCompile Include="gmMat4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Computer Science/CS499/Wickbert/ZERO_CHECK.vcxproj">
+      <Project>455E24B2-A953-4928-AFDD-3678871B8F58</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

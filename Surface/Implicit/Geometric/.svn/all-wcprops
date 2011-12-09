@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Geometric
+END
+Point.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Geometric/Point.h
+END
+Plane.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Geometric/Plane.cpp
+END
+Segment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Geometric/Segment.cpp
+END
+Geometric.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Geometric/Geometric.h
+END
+Plane.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Geometric/Plane.h
+END
+Sphere.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Geometric/Sphere.cpp
+END
+Segment.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Geometric/Segment.h
+END
+Point.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Geometric/Point.cpp
+END
+Sphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Geometric/Sphere.h
+END

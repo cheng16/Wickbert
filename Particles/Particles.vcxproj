@@ -1,0 +1,419 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{5A1EE51E-810C-4264-86A6-D9B2BFAA254B}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Particles</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Computer Science\CS499\Wickbert\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Particles.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Particles</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Computer Science\CS499\Wickbert\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Particles.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Particles</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Computer Science\CS499\Wickbert\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Particles.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Particles</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Computer Science\CS499\Wickbert\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Particles.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Particles</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/Debug/Particles.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/Release/Particles.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/MinSizeRel/Particles.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/RelWithDebInfo/Particles.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/Particles/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\Particles\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Computer Science/CS499/Wickbert/Particles/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Particles\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Particles\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Computer Science\CS499\Wickbert\Particles\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/Particles/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\Particles\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Computer Science/CS499/Wickbert/Particles/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Particles\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Particles\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Computer Science\CS499\Wickbert\Particles\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/Particles/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\Particles\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Computer Science/CS499/Wickbert/Particles/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Particles\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Particles\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Computer Science\CS499\Wickbert\Particles\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/Particles/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\Particles\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Computer Science/CS499/Wickbert/Particles/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Particles\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Particles\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Computer Science\CS499\Wickbert\Particles\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Particles.cpp" />
+    <ClInclude Include="Particles.h" />
+    <ClCompile Include="ParticleStuff.cpp" />
+    <ClInclude Include="ParticleStuff.h" />
+    <ClCompile Include="ParticleStuffParameters.cpp" />
+    <ClInclude Include="ParticleStuffParameters.h" />
+    <ClCompile Include="ParticleAttribute.cpp" />
+    <ClInclude Include="ParticleAttribute.h" />
+    <ClCompile Include="ParticleBehavior.cpp" />
+    <ClInclude Include="ParticleBehavior.h" />
+    <ClCompile Include="ParticleShader.cpp" />
+    <ClInclude Include="ParticleShader.h" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClInclude Include="ParticleSystem.h" />
+    <ClCompile Include="ParFileManager.cpp" />
+    <ClInclude Include="ParFileManager.h" />
+    <ClCompile Include="nv_pbuffer.cpp" />
+    <ClInclude Include="nv_pbuffer.h" />
+    <ClCompile Include="pstools.cpp" />
+    <ClInclude Include="pstools.h" />
+    <ClCompile Include="svd.cpp" />
+    <ClInclude Include="svd.h" />
+    <ClCompile Include="Attributes\AdaptiveRepulsionData.cpp" />
+    <ClInclude Include="Attributes\AdaptiveRepulsionData.h" />
+    <ClCompile Include="Attributes\Contours.cpp" />
+    <ClInclude Include="Attributes\Contours.h" />
+    <ClCompile Include="Attributes\DuplicateParticlesAlongNormal.cpp" />
+    <ClInclude Include="Attributes\DuplicateParticlesAlongNormal.h" />
+    <ClCompile Include="Attributes\FaceOrientation.cpp" />
+    <ClInclude Include="Attributes\FaceOrientation.h" />
+    <ClCompile Include="Attributes\FacePosition.cpp" />
+    <ClInclude Include="Attributes\FacePosition.h" />
+    <ClCompile Include="Attributes\ImplicitInterrogator.cpp" />
+    <ClInclude Include="Attributes\ImplicitInterrogator.h" />
+    <ClCompile Include="Attributes\ImplicitInterrogatorCached.cpp" />
+    <ClInclude Include="Attributes\ImplicitInterrogatorCached.h" />
+    <ClCompile Include="Attributes\LightPosition.cpp" />
+    <ClInclude Include="Attributes\LightPosition.h" />
+    <ClCompile Include="Attributes\MeshInterrogator.cpp" />
+    <ClInclude Include="Attributes\MeshInterrogator.h" />
+    <ClCompile Include="Attributes\OBJPosition.cpp" />
+    <ClInclude Include="Attributes\OBJPosition.h" />
+    <ClCompile Include="Attributes\ParticleAcceleration.cpp" />
+    <ClInclude Include="Attributes\ParticleAcceleration.h" />
+    <ClCompile Include="Attributes\ParticleAge.cpp" />
+    <ClInclude Include="Attributes\ParticleAge.h" />
+    <ClCompile Include="Attributes\ParticleBoundingBox.cpp" />
+    <ClInclude Include="Attributes\ParticleBoundingBox.h" />
+    <ClCompile Include="Attributes\ParticleDensity.cpp" />
+    <ClInclude Include="Attributes\ParticleDensity.h" />
+    <ClCompile Include="Attributes\ParticleDesiredOrientation.cpp" />
+    <ClInclude Include="Attributes\ParticleDesiredOrientation.h" />
+    <ClCompile Include="Attributes\ParticleEigen.cpp" />
+    <ClInclude Include="Attributes\ParticleEigen.h" />
+    <ClCompile Include="Attributes\ParticleLocality.cpp" />
+    <ClInclude Include="Attributes\ParticleLocality.h" />
+    <ClCompile Include="Attributes\ParticleLocalityGrid.cpp" />
+    <ClInclude Include="Attributes\ParticleLocalityGrid.h" />
+    <ClCompile Include="Attributes\ParticleMaterial.cpp" />
+    <ClInclude Include="Attributes\ParticleMaterial.h" />
+    <ClCompile Include="Attributes\ParticleMesh.cpp" />
+    <ClInclude Include="Attributes\ParticleMesh.h" />
+    <ClCompile Include="Attributes\ParticleNormal.cpp" />
+    <ClInclude Include="Attributes\ParticleNormal.h" />
+    <ClCompile Include="Attributes\ParticleOrientation.cpp" />
+    <ClInclude Include="Attributes\ParticleOrientation.h" />
+    <ClCompile Include="Attributes\ParticlePosition.cpp" />
+    <ClInclude Include="Attributes\ParticlePosition.h" />
+    <ClCompile Include="Attributes\ParticleScalar.cpp" />
+    <ClInclude Include="Attributes\ParticleScalar.h" />
+    <ClCompile Include="Attributes\ParticleVector.cpp" />
+    <ClInclude Include="Attributes\ParticleVector.h" />
+    <ClCompile Include="Attributes\ParticleVelocity.cpp" />
+    <ClInclude Include="Attributes\ParticleVelocity.h" />
+    <ClCompile Include="Attributes\ParticleVisibility.cpp" />
+    <ClInclude Include="Attributes\ParticleVisibility.h" />
+    <ClCompile Include="Attributes\SurfaceInterrogator.cpp" />
+    <ClInclude Include="Attributes\SurfaceInterrogator.h" />
+    <ClCompile Include="Attributes\UniformDistribution.cpp" />
+    <ClInclude Include="Attributes\UniformDistribution.h" />
+    <ClCompile Include="Attributes\VertexOrientation.cpp" />
+    <ClInclude Include="Attributes\VertexOrientation.h" />
+    <ClCompile Include="Attributes\VertexPosition.cpp" />
+    <ClInclude Include="Attributes\VertexPosition.h" />
+    <ClCompile Include="Attributes\VertexScalar.cpp" />
+    <ClInclude Include="Attributes\VertexScalar.h" />
+    <ClCompile Include="Attributes\ViewDependence.cpp" />
+    <ClInclude Include="Attributes\ViewDependence.h" />
+    <ClCompile Include="Behaviors\AccelerationIntegrator.cpp" />
+    <ClInclude Include="Behaviors\AccelerationIntegrator.h" />
+    <ClCompile Include="Behaviors\AsymmetricRepulsion.cpp" />
+    <ClInclude Include="Behaviors\AsymmetricRepulsion.h" />
+    <ClCompile Include="Behaviors\CurveAdhesion.cpp" />
+    <ClInclude Include="Behaviors\CurveAdhesion.h" />
+    <ClCompile Include="Behaviors\DeCarloSuggestiveContourAdhesion.cpp" />
+    <ClInclude Include="Behaviors\DeCarloSuggestiveContourAdhesion.h" />
+    <ClCompile Include="Behaviors\FeatureDetector.cpp" />
+    <ClInclude Include="Behaviors\FeatureDetector.h" />
+    <ClCompile Include="Behaviors\KDPropagation.cpp" />
+    <ClInclude Include="Behaviors\KDPropagation.h" />
+    <ClCompile Include="Behaviors\KeepInBounds.cpp" />
+    <ClInclude Include="Behaviors\KeepInBounds.h" />
+    <ClCompile Include="Behaviors\ParabolicsAdhesion.cpp" />
+    <ClInclude Include="Behaviors\ParabolicsAdhesion.h" />
+    <ClCompile Include="Behaviors\ParticleCreation.cpp" />
+    <ClInclude Include="Behaviors\ParticleCreation.h" />
+    <ClCompile Include="Behaviors\ParticleFate.cpp" />
+    <ClInclude Include="Behaviors\ParticleFate.h" />
+    <ClCompile Include="Behaviors\ParticleFateContour.cpp" />
+    <ClInclude Include="Behaviors\ParticleFateContour.h" />
+    <ClCompile Include="Behaviors\ParticleRepulsion.cpp" />
+    <ClInclude Include="Behaviors\ParticleRepulsion.h" />
+    <ClCompile Include="Behaviors\ParticleRepulsionContour.cpp" />
+    <ClInclude Include="Behaviors\ParticleRepulsionContour.h" />
+    <ClCompile Include="Behaviors\ParticleValueDeath.cpp" />
+    <ClInclude Include="Behaviors\ParticleValueDeath.h" />
+    <ClCompile Include="Behaviors\ShadowAdhesion.cpp" />
+    <ClInclude Include="Behaviors\ShadowAdhesion.h" />
+    <ClCompile Include="Behaviors\ShadowDetector.cpp" />
+    <ClInclude Include="Behaviors\ShadowDetector.h" />
+    <ClCompile Include="Behaviors\SilhouetteAdhesion.cpp" />
+    <ClInclude Include="Behaviors\SilhouetteAdhesion.h" />
+    <ClCompile Include="Behaviors\SilhouetteDetector.cpp" />
+    <ClInclude Include="Behaviors\SilhouetteDetector.h" />
+    <ClCompile Include="Behaviors\SingularityAdhesion.cpp" />
+    <ClInclude Include="Behaviors\SingularityAdhesion.h" />
+    <ClCompile Include="Behaviors\SingularityRepulsion.cpp" />
+    <ClInclude Include="Behaviors\SingularityRepulsion.h" />
+    <ClCompile Include="Behaviors\SpecularAdhesion.cpp" />
+    <ClInclude Include="Behaviors\SpecularAdhesion.h" />
+    <ClCompile Include="Behaviors\SuggestiveContourAdhesion.cpp" />
+    <ClInclude Include="Behaviors\SuggestiveContourAdhesion.h" />
+    <ClCompile Include="Behaviors\SuggestiveContourStabilization.cpp" />
+    <ClInclude Include="Behaviors\SuggestiveContourStabilization.h" />
+    <ClCompile Include="Behaviors\SurfaceAdhesion.cpp" />
+    <ClInclude Include="Behaviors\SurfaceAdhesion.h" />
+    <ClCompile Include="Behaviors\SurfaceDeformation.cpp" />
+    <ClInclude Include="Behaviors\SurfaceDeformation.h" />
+    <ClCompile Include="Behaviors\SurfacePropagation.cpp" />
+    <ClInclude Include="Behaviors\SurfacePropagation.h" />
+    <ClCompile Include="Behaviors\TwoImplicitIntersectionAdhesion.cpp" />
+    <ClInclude Include="Behaviors\TwoImplicitIntersectionAdhesion.h" />
+    <ClCompile Include="Behaviors\ViscousDynamics.cpp" />
+    <ClInclude Include="Behaviors\ViscousDynamics.h" />
+    <ClCompile Include="Shaders\CopyParticle.cpp" />
+    <ClInclude Include="Shaders\CopyParticle.h" />
+    <ClCompile Include="Shaders\FindFirstIntersectionWithImplicitsShader.cpp" />
+    <ClInclude Include="Shaders\FindFirstIntersectionWithImplicitsShader.h" />
+    <ClCompile Include="Shaders\IntervalSubdivision.cpp" />
+    <ClInclude Include="Shaders\IntervalSubdivision.h" />
+    <ClCompile Include="Shaders\OrientParticle.cpp" />
+    <ClInclude Include="Shaders\OrientParticle.h" />
+    <ClCompile Include="Shaders\ParticleShaderCylinder.cpp" />
+    <ClInclude Include="Shaders\ParticleShaderCylinder.h" />
+    <ClCompile Include="Shaders\ParticleShaderDisk.cpp" />
+    <ClInclude Include="Shaders\ParticleShaderDisk.h" />
+    <ClCompile Include="Shaders\ParticleShaderDiskVisibility.cpp" />
+    <ClInclude Include="Shaders\ParticleShaderDiskVisibility.h" />
+    <ClCompile Include="Shaders\ParticleShaderGradientField.cpp" />
+    <ClInclude Include="Shaders\ParticleShaderGradientField.h" />
+    <ClCompile Include="Shaders\ParticleShaderLink.cpp" />
+    <ClInclude Include="Shaders\ParticleShaderLink.h" />
+    <ClCompile Include="Shaders\ParticleShaderSphere.cpp" />
+    <ClInclude Include="Shaders\ParticleShaderSphere.h" />
+    <ClCompile Include="Shaders\ParticleShaderText.cpp" />
+    <ClInclude Include="Shaders\ParticleShaderText.h" />
+    <ClCompile Include="Shaders\ParticleShaderTriangle.cpp" />
+    <ClInclude Include="Shaders\ParticleShaderTriangle.h" />
+    <ClCompile Include="Shaders\ParticleShaderVoronoi.cpp" />
+    <ClInclude Include="Shaders\ParticleShaderVoronoi.h" />
+    <ClCompile Include="Shaders\ParticleShaderVoronoiPhong.cpp" />
+    <ClInclude Include="Shaders\ParticleShaderVoronoiPhong.h" />
+    <ClCompile Include="Shaders\Rainbow.cpp" />
+    <ClInclude Include="Shaders\Rainbow.h" />
+    <ClCompile Include="Shaders\ShaderAnimation.cpp" />
+    <ClInclude Include="Shaders\ShaderAnimation.h" />
+    <ClCompile Include="Shaders\ShaderBoundingBox.cpp" />
+    <ClInclude Include="Shaders\ShaderBoundingBox.h" />
+    <ClCompile Include="Shaders\ShaderContour.cpp" />
+    <ClInclude Include="Shaders\ShaderContour.h" />
+    <ClCompile Include="Shaders\ShaderContourSimple.cpp" />
+    <ClInclude Include="Shaders\ShaderContourSimple.h" />
+    <ClCompile Include="Shaders\ShaderDeCarloSuggestiveContour.cpp" />
+    <ClInclude Include="Shaders\ShaderDeCarloSuggestiveContour.h" />
+    <ClCompile Include="Shaders\ShaderIntersectionContour.cpp" />
+    <ClInclude Include="Shaders\ShaderIntersectionContour.h" />
+    <ClCompile Include="Shaders\ShaderMeshRenderer.cpp" />
+    <ClInclude Include="Shaders\ShaderMeshRenderer.h" />
+    <ClCompile Include="Shaders\ShaderParabolicsContour.cpp" />
+    <ClInclude Include="Shaders\ShaderParabolicsContour.h" />
+    <ClCompile Include="Shaders\ShaderProcessSurfaceEvent.cpp" />
+    <ClInclude Include="Shaders\ShaderProcessSurfaceEvent.h" />
+    <ClCompile Include="Shaders\ShaderShadowContour.cpp" />
+    <ClInclude Include="Shaders\ShaderShadowContour.h" />
+    <ClCompile Include="Shaders\ShaderSilhouetteContour.cpp" />
+    <ClInclude Include="Shaders\ShaderSilhouetteContour.h" />
+    <ClCompile Include="Shaders\ShaderSilhouetteSimple.cpp" />
+    <ClInclude Include="Shaders\ShaderSilhouetteSimple.h" />
+    <ClCompile Include="Shaders\ShaderSpecularContour.cpp" />
+    <ClInclude Include="Shaders\ShaderSpecularContour.h" />
+    <ClCompile Include="Shaders\ShaderSuggestiveContour.cpp" />
+    <ClInclude Include="Shaders\ShaderSuggestiveContour.h" />
+    <ClCompile Include="Shaders\ShaderSurfaceInterrogation.cpp" />
+    <ClInclude Include="Shaders\ShaderSurfaceInterrogation.h" />
+    <ClCompile Include="Shaders\ShowCell.cpp" />
+    <ClInclude Include="Shaders\ShowCell.h" />
+    <ClCompile Include="Shaders\UseMaterial.cpp" />
+    <ClInclude Include="Shaders\UseMaterial.h" />
+    <ClCompile Include="Shaders\UseMaterialSwitch.cpp" />
+    <ClInclude Include="Shaders\UseMaterialSwitch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Computer Science/CS499/Wickbert/ZERO_CHECK.vcxproj">
+      <Project>455E24B2-A953-4928-AFDD-3678871B8F58</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,401 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/wickbert/!svn/ver/541/branches/psparam/Particles/Attributes
+END
+ImplicitInterrogatorCached.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/wickbert/!svn/ver/441/branches/psparam/Particles/Attributes/ImplicitInterrogatorCached.h
+END
+ParticleBoundingBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/wickbert/!svn/ver/479/branches/psparam/Particles/Attributes/ParticleBoundingBox.h
+END
+ParticleDensity.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleDensity.h
+END
+ParticleLocality.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/436/branches/psparam/Particles/Attributes/ParticleLocality.h
+END
+ParticleVisibility.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/506/branches/psparam/Particles/Attributes/ParticleVisibility.cpp
+END
+Contours.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/wickbert/!svn/ver/456/branches/psparam/Particles/Attributes/Contours.cpp
+END
+ParticleNormal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleNormal.cpp
+END
+UniformDistribution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/wickbert/!svn/ver/445/branches/psparam/Particles/Attributes/UniformDistribution.cpp
+END
+FaceOrientation.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/429/branches/psparam/Particles/Attributes/FaceOrientation.h
+END
+DuplicateParticlesAlongNormal.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/wickbert/!svn/ver/429/branches/psparam/Particles/Attributes/DuplicateParticlesAlongNormal.h
+END
+ParticleAcceleration.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleAcceleration.h
+END
+ParticleDesiredOrientation.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleDesiredOrientation.h
+END
+ViewDependence.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/479/branches/psparam/Particles/Attributes/ViewDependence.cpp
+END
+ParticleAge.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wickbert/!svn/ver/499/branches/psparam/Particles/Attributes/ParticleAge.h
+END
+ParticleVelocity.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleVelocity.h
+END
+AdaptiveRepulsionData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/wickbert/!svn/ver/478/branches/psparam/Particles/Attributes/AdaptiveRepulsionData.cpp
+END
+ParticleVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/417/branches/psparam/Particles/Attributes/ParticleVector.h
+END
+LightPosition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/479/branches/psparam/Particles/Attributes/LightPosition.cpp
+END
+VertexPosition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/441/branches/psparam/Particles/Attributes/VertexPosition.cpp
+END
+ParticleDensity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleDensity.cpp
+END
+VertexScalar.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/329/branches/psparam/Particles/Attributes/VertexScalar.h
+END
+ParticleLocalityGrid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wickbert/!svn/ver/474/branches/psparam/Particles/Attributes/ParticleLocalityGrid.cpp
+END
+DuplicateParticlesAlongNormal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/wickbert/!svn/ver/433/branches/psparam/Particles/Attributes/DuplicateParticlesAlongNormal.cpp
+END
+ParticleAcceleration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleAcceleration.cpp
+END
+ParticleDesiredOrientation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleDesiredOrientation.cpp
+END
+ParticleNormal.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/454/branches/psparam/Particles/Attributes/ParticleNormal.h
+END
+Contours.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/wickbert/!svn/ver/445/branches/psparam/Particles/Attributes/Contours.h
+END
+ParticleMaterial.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/wickbert/!svn/ver/283/branches/psparam/Particles/Attributes/ParticleMaterial.cpp
+END
+ParticleOrientation.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleOrientation.h
+END
+SurfaceInterrogator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/wickbert/!svn/ver/383/branches/psparam/Particles/Attributes/SurfaceInterrogator.cpp
+END
+FacePosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/429/branches/psparam/Particles/Attributes/FacePosition.h
+END
+MeshInterrogator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/MeshInterrogator.cpp
+END
+AdaptiveRepulsionData.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/wickbert/!svn/ver/436/branches/psparam/Particles/Attributes/AdaptiveRepulsionData.h
+END
+VertexOrientation.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/wickbert/!svn/ver/394/branches/psparam/Particles/Attributes/VertexOrientation.h
+END
+LightPosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/479/branches/psparam/Particles/Attributes/LightPosition.h
+END
+VertexScalar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/441/branches/psparam/Particles/Attributes/VertexScalar.cpp
+END
+OBJPosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wickbert/!svn/ver/394/branches/psparam/Particles/Attributes/OBJPosition.h
+END
+VertexPosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/394/branches/psparam/Particles/Attributes/VertexPosition.h
+END
+ImplicitInterrogator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wickbert/!svn/ver/483/branches/psparam/Particles/Attributes/ImplicitInterrogator.cpp
+END
+ParticleOrientation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleOrientation.cpp
+END
+ParticleLocalityGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/436/branches/psparam/Particles/Attributes/ParticleLocalityGrid.h
+END
+ParticleEigen.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleEigen.h
+END
+ParticleMesh.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/441/branches/psparam/Particles/Attributes/ParticleMesh.cpp
+END
+FacePosition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/445/branches/psparam/Particles/Attributes/FacePosition.cpp
+END
+ParticleMaterial.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleMaterial.h
+END
+ParticlePosition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/wickbert/!svn/ver/310/branches/psparam/Particles/Attributes/ParticlePosition.cpp
+END
+VertexOrientation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/wickbert/!svn/ver/401/branches/psparam/Particles/Attributes/VertexOrientation.cpp
+END
+SurfaceInterrogator.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/SurfaceInterrogator.h
+END
+ParticleScalar.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/438/branches/psparam/Particles/Attributes/ParticleScalar.h
+END
+OBJPosition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/382/branches/psparam/Particles/Attributes/OBJPosition.cpp
+END
+MeshInterrogator.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/MeshInterrogator.h
+END
+ImplicitInterrogatorCached.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/wickbert/!svn/ver/441/branches/psparam/Particles/Attributes/ImplicitInterrogatorCached.cpp
+END
+ParticleBoundingBox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/wickbert/!svn/ver/479/branches/psparam/Particles/Attributes/ParticleBoundingBox.cpp
+END
+ParticleLocality.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/wickbert/!svn/ver/436/branches/psparam/Particles/Attributes/ParticleLocality.cpp
+END
+FaceOrientation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/wickbert/!svn/ver/445/branches/psparam/Particles/Attributes/FaceOrientation.cpp
+END
+ParticleEigen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleEigen.cpp
+END
+ImplicitInterrogator.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/481/branches/psparam/Particles/Attributes/ImplicitInterrogator.h
+END
+ParticleVisibility.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/wickbert/!svn/ver/485/branches/psparam/Particles/Attributes/ParticleVisibility.h
+END
+ParticleAge.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/541/branches/psparam/Particles/Attributes/ParticleAge.cpp
+END
+ParticleVelocity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleVelocity.cpp
+END
+UniformDistribution.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/wickbert/!svn/ver/439/branches/psparam/Particles/Attributes/UniformDistribution.h
+END
+ParticleMesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/317/branches/psparam/Particles/Attributes/ParticleMesh.h
+END
+ParticleVector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/417/branches/psparam/Particles/Attributes/ParticleVector.cpp
+END
+ParticleScalar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Attributes/ParticleScalar.cpp
+END
+ViewDependence.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/479/branches/psparam/Particles/Attributes/ViewDependence.h
+END
+ParticlePosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/310/branches/psparam/Particles/Attributes/ParticlePosition.h
+END

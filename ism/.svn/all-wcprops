@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/wickbert/!svn/ver/553/branches/psparam/ism
+END
+NewtonDegenerate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/wickbert/!svn/ver/222/branches/psparam/ism/NewtonDegenerate.cpp
+END
+SearchDegenerate.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/SearchDegenerate.h
+END
+contractors.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/397/branches/psparam/ism/contractors.cpp
+END
+NewtonDegenerate.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/NewtonDegenerate.h
+END
+ContourCritical.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/wickbert/!svn/ver/428/branches/psparam/ism/ContourCritical.cpp
+END
+contractors.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/wickbert/!svn/ver/397/branches/psparam/ism/contractors.h
+END
+CriticalMesh.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/CriticalMesh.cpp
+END
+ContourCriticalPointsGSL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/wickbert/!svn/ver/428/branches/psparam/ism/ContourCriticalPointsGSL.cpp
+END
+NewtonClassify.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/NewtonClassify.cpp
+END
+ContourCritical.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wickbert/!svn/ver/428/branches/psparam/ism/ContourCritical.h
+END
+ism.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/wickbert/!svn/ver/553/branches/psparam/ism/ism.vcproj
+END
+Newton.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/wickbert/!svn/ver/429/branches/psparam/ism/Newton.cpp
+END
+CriticalMesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/CriticalMesh.h
+END
+ContourCriticalPointsGSL.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/wickbert/!svn/ver/428/branches/psparam/ism/ContourCriticalPointsGSL.h
+END
+NewtonClassify.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/wickbert/!svn/ver/351/branches/psparam/ism/NewtonClassify.h
+END
+Newton.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/wickbert/!svn/ver/349/branches/psparam/ism/Newton.h
+END
+SearchCritical.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/SearchCritical.cpp
+END
+GaussJordan.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/GaussJordan.cpp
+END
+SearchCritical.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/SearchCritical.h
+END
+GaussJordan.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/GaussJordan.h
+END
+NewtonCritical.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/wickbert/!svn/ver/222/branches/psparam/ism/NewtonCritical.cpp
+END
+SingularityClassification.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/wickbert/!svn/ver/428/branches/psparam/ism/SingularityClassification.cpp
+END
+Jacobi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/Jacobi.cpp
+END
+SearchDegenerate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/SearchDegenerate.cpp
+END
+NewtonCritical.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/NewtonCritical.h
+END
+SingularityClassification.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/wickbert/!svn/ver/428/branches/psparam/ism/SingularityClassification.h
+END
+Jacobi.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/wickbert/!svn/ver/41/branches/psparam/ism/Jacobi.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/wickbert/!svn/ver/381/branches/psparam/ism/CMakeLists.txt
+END

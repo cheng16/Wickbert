@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/wickbert/!svn/ver/119/branches/psparam/Surface/Implicit/ADF
+END
+pool.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/ADF/pool.h
+END
+adf.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/ADF/adf.h
+END
+octree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/ADF/octree.cpp
+END
+heap.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/ADF/heap.h
+END
+hashset.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/ADF/hashset.h
+END
+aabb.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/wickbert/!svn/ver/119/branches/psparam/Surface/Implicit/ADF/aabb.cpp
+END
+hashmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/ADF/hashmap.h
+END
+octree.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/ADF/octree.h
+END
+adf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/ADF/adf.cpp
+END
+aabb.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/ADF/aabb.h
+END
+heap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/ADF/heap.cpp
+END

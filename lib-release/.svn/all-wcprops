@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/wickbert/!svn/ver/426/branches/psparam/lib-release
+END
+regex.lib
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/wickbert/!svn/ver/41/branches/psparam/lib-release/regex.lib
+END
+cgGL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/41/branches/psparam/lib-release/cgGL.lib
+END
+libgsl.lib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wickbert/!svn/ver/41/branches/psparam/lib-release/libgsl.lib
+END
+pi.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/wickbert/!svn/ver/257/branches/psparam/lib-release/pi.dll
+END
+zlib.lib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/41/branches/psparam/lib-release/zlib.lib
+END
+png.lib
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/wickbert/!svn/ver/41/branches/psparam/lib-release/png.lib
+END
+sfl.lib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/257/branches/psparam/lib-release/sfl.lib
+END
+jpeg.lib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/41/branches/psparam/lib-release/jpeg.lib
+END
+tiff.lib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/41/branches/psparam/lib-release/tiff.lib
+END
+cg.lib
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/wickbert/!svn/ver/41/branches/psparam/lib-release/cg.lib
+END
+sfl.dll
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/257/branches/psparam/lib-release/sfl.dll
+END

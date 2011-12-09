@@ -1,0 +1,223 @@
+8
+
+dir
+577
+https://graphics.cs.uiuc.edu/svn/wickbert/branches/psparam/Surface/Implicit
+https://graphics.cs.uiuc.edu/svn/wickbert
+
+
+
+2007-01-04T13:33:53.634682Z
+547
+stroila2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3629d5b8-15e5-0310-be66-96fd1c3aa567
+
+VTKImplicit.cpp
+file
+
+
+
+
+2006-12-08T00:03:51.406250Z
+718abf6f62d18a9c6cfdb1939ccac7b9
+2006-07-03T21:17:58.461696Z
+432
+stroila2
+
+Pixmaps
+dir
+
+VTKImplicit.h
+file
+
+
+
+
+2006-12-08T00:03:51.406250Z
+45f074398160f805d4e951e4b32680ee
+2006-07-03T21:17:58.461696Z
+432
+stroila2
+
+ADF
+dir
+
+Operator
+dir
+
+MLS
+dir
+
+Implicit.cpp
+file
+
+
+
+
+2007-01-11T16:21:04.413250Z
+df0a5e4ccd07765d9782b8824b03f331
+2007-01-04T13:33:53.634682Z
+547
+stroila2
+
+DistanceField
+dir
+
+Icosahedral.cpp
+file
+
+
+
+
+2006-12-08T00:03:51.453125Z
+6621b2c4c1e873203fcb2a0299dd7c13
+2006-07-03T21:17:58.461696Z
+432
+stroila2
+
+Implicit.h
+file
+
+
+
+
+2007-01-11T16:21:04.444500Z
+4377231790e52e07d00de4998a65c667
+2007-01-04T13:33:53.634682Z
+547
+stroila2
+
+ImpFileManager.cpp
+file
+
+
+
+
+2006-12-08T00:03:51.468750Z
+c809beacb3754838f75940fc7569fafc
+2006-07-14T21:16:58.362392Z
+442
+eisemann
+
+polygonizer.cpp
+file
+
+
+
+
+2006-12-08T00:03:51.484375Z
+3c520bef846b78b21a980ccf017bebbf
+2006-07-14T20:59:22.640527Z
+441
+eisemann
+
+ITKImplicit.cpp
+file
+
+
+
+
+2006-12-08T00:03:51.500000Z
+bf773fe6881b05aa7a0a45334adda72e
+2006-08-15T21:36:45.129941Z
+481
+eisemann
+
+Icosahedral.h
+file
+
+
+
+
+2006-12-08T00:03:51.515625Z
+76a2c945459d62a01d54258f40e4588d
+2006-07-03T21:17:58.461696Z
+432
+stroila2
+
+ImpFileManager.h
+file
+
+
+
+
+2006-12-08T00:03:51.515625Z
+8dbbf7fb55f017373f7819ed5cd44bc8
+2006-03-14T16:47:02.121558Z
+401
+stroila2
+
+pixmaps.h
+file
+
+
+
+
+2006-12-08T00:03:51.531250Z
+4ba862561b3bf7f0925dccb4f9b10d70
+2004-10-04T19:15:10.983388Z
+2
+jch
+
+polygonizer.h
+file
+
+
+
+
+2006-12-08T00:03:51.531250Z
+72a260d0a414361ceed357e76aeaf35c
+2005-12-14T05:28:15.505159Z
+303
+elorimer
+
+ITKImplicit.h
+file
+
+
+
+
+2006-12-08T00:03:51.546875Z
+8e092b3fb627fb0be7ea80a113e52ff3
+2006-07-21T04:38:59.451744Z
+449
+eisemann
+
+Variational
+dir
+
+Algebraic
+dir
+
+GlobalListObject.h
+file
+
+
+
+
+2006-12-08T00:03:51.562500Z
+a7ffab642e8dea7b04d3c45815d5ff61
+2004-10-04T19:15:10.983388Z
+2
+jch
+
+Blob
+dir
+
+Geometric
+dir
+

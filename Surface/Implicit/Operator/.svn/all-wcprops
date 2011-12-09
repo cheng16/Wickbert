@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/wickbert/!svn/ver/474/branches/psparam/Surface/Implicit/Operator
+END
+SuggestiveSurface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/SuggestiveSurface.cpp
+END
+ASubtraction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/wickbert/!svn/ver/253/branches/psparam/Surface/Implicit/Operator/ASubtraction.cpp
+END
+ParabolicPoints.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/ParabolicPoints.h
+END
+RadialCurvature.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/RadialCurvature.h
+END
+UnaryOp.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/UnaryOp.h
+END
+Subtraction.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Subtraction.h
+END
+CSGIntersection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/CSGIntersection.cpp
+END
+Sum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Sum.cpp
+END
+Intersection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/wickbert/!svn/ver/261/branches/psparam/Surface/Implicit/Operator/Intersection.cpp
+END
+AIntersection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/253/branches/psparam/Surface/Implicit/Operator/AIntersection.cpp
+END
+Complement.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Complement.h
+END
+ZeroGaussianCurvature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/ZeroGaussianCurvature.cpp
+END
+RFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/RFunction.h
+END
+Blobby.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Blobby.h
+END
+Convolution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/wickbert/!svn/ver/342/branches/psparam/Surface/Implicit/Operator/Convolution.cpp
+END
+GradFdotV.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/GradFdotV.cpp
+END
+Blend.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Blend.cpp
+END
+DirectionalDerivative.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/DirectionalDerivative.h
+END
+Product.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Product.h
+END
+Offset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Offset.cpp
+END
+ImpList.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/ImpList.h
+END
+SpecularSurface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wickbert/!svn/ver/474/branches/psparam/Surface/Implicit/Operator/SpecularSurface.cpp
+END
+BinaryOp.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/BinaryOp.h
+END
+Union.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/Operator/Union.cpp
+END
+ParabolicPoints.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/ParabolicPoints.cpp
+END
+ABlend.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wickbert/!svn/ver/253/branches/psparam/Surface/Implicit/Operator/ABlend.h
+END
+CSGUnion.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/CSGUnion.h
+END
+UnaryOp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/48/branches/psparam/Surface/Implicit/Operator/UnaryOp.cpp
+END
+Mover.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Mover.h
+END
+RadialCurvature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/RadialCurvature.cpp
+END
+Difference.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Difference.h
+END
+RotatedImplicit.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/RotatedImplicit.h
+END
+KDOp.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/KDOp.h
+END
+KDTreeXin.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/355/branches/psparam/Surface/Implicit/Operator/KDTreeXin.h
+END
+SuggestiveSurface.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/SuggestiveSurface.h
+END
+Complement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Complement.cpp
+END
+RFunction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/RFunction.cpp
+END
+CSGIntersection.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/CSGIntersection.h
+END
+Sum.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Sum.h
+END
+Blobby.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/429/branches/psparam/Surface/Implicit/Operator/Blobby.cpp
+END
+Intersection.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/wickbert/!svn/ver/261/branches/psparam/Surface/Implicit/Operator/Intersection.h
+END
+ZeroGaussianCurvature.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/ZeroGaussianCurvature.h
+END
+DirectionalDerivative.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/DirectionalDerivative.cpp
+END
+Product.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Product.cpp
+END
+ImpList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/ImpList.cpp
+END
+BinaryOp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/BinaryOp.cpp
+END
+Convolution.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Convolution.h
+END
+GradFdotV.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/GradFdotV.h
+END
+CSGUnion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/CSGUnion.cpp
+END
+Mover.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Mover.cpp
+END
+Blend.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Blend.h
+END
+AUnion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/368/branches/psparam/Surface/Implicit/Operator/AUnion.cpp
+END
+Difference.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Difference.cpp
+END
+Offset.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/Offset.h
+END
+SpecularSurface.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/SpecularSurface.h
+END
+KDOp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/KDOp.cpp
+END
+Union.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/wickbert/!svn/ver/249/branches/psparam/Surface/Implicit/Operator/Union.h
+END
+RotatedImplicit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Operator/RotatedImplicit.cpp
+END

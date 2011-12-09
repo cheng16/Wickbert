@@ -1,0 +1,8 @@
+C:/Computer Science/CS499/Wickbert/CMakeFiles/ALL_BUILD.dir
+C:/Computer Science/CS499/Wickbert/Particles/CMakeFiles/Particles.dir
+C:/Computer Science/CS499/Wickbert/Surface/CMakeFiles/Surface.dir
+C:/Computer Science/CS499/Wickbert/CMakeFiles/ZERO_CHECK.dir
+C:/Computer Science/CS499/Wickbert/libgm/CMakeFiles/gm.dir
+C:/Computer Science/CS499/Wickbert/ism/CMakeFiles/ism.dir
+C:/Computer Science/CS499/Wickbert/tests/CMakeFiles/test_interval.dir
+C:/Computer Science/CS499/Wickbert/wxModeler/CMakeFiles/wxModeler.dir

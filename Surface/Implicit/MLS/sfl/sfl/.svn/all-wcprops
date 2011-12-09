@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/wickbert/!svn/ver/257/branches/psparam/Surface/Implicit/MLS/sfl/sfl
+END
+api.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wickbert/!svn/ver/257/branches/psparam/Surface/Implicit/MLS/sfl/sfl/api.h
+END
+normalenc.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/wickbert/!svn/ver/257/branches/psparam/Surface/Implicit/MLS/sfl/sfl/normalenc.h
+END
+propmasktype.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/257/branches/psparam/Surface/Implicit/MLS/sfl/sfl/propmasktype.h
+END
+gff.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/wickbert/!svn/ver/257/branches/psparam/Surface/Implicit/MLS/sfl/sfl/gff.h
+END
+killersurfel.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/257/branches/psparam/Surface/Implicit/MLS/sfl/sfl/killersurfel.h
+END
+sfldefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/257/branches/psparam/Surface/Implicit/MLS/sfl/sfl/sfldefs.h
+END

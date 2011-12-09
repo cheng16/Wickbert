@@ -1,0 +1,64 @@
+# CMake generation dependency list for this directory.
+C:/Computer Science/CS499/Wickbert/CMakeLists.txt
+C:/Computer Science/CS499/Wickbert/CMakeFiles/CMakeSystem.cmake
+C:/Computer Science/CS499/Wickbert/CMakeFiles/CMakeCCompiler.cmake
+C:/Computer Science/CS499/Wickbert/CMakeFiles/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+C:/Computer Science/CS499/Wickbert/CMakeFiles/CMakeCPlatform.cmake
+C:/Computer Science/CS499/Wickbert/CMakeFiles/CMakeCXXPlatform.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+C:/Computer Science/CS499/Wickbert/CMakeFiles/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+C:/Computer Science/CS499/Wickbert/CMakeFiles/CMakeCPlatform.cmake
+C:/Computer Science/CS499/Wickbert/CMakeFiles/CMakeCXXPlatform.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeBackwardCompatibilityC.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/TestBigEndian.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindX11.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindThreads.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeBackwardCompatibilityCXX.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/TestCXXAcceptsFlag.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/TestForANSIStreamHeaders.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/TestForSTDNamespace.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/TestForANSIForScope.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/TestForSSTREAM.cmake
+C:/Computer Science/CS499/Wickbert/wxModeler/defaultparticlesystem.par
+C:/Computer Science/CS499/Wickbert/wxModeler/defaultparticlesystem.par
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/Particles.bmp
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/Particles.bmp
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/Particles.xpm
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/Particles.xpm
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleStuff.bmp
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleStuff.bmp
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleStuffHeader.bmp
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleStuffHeader.bmp
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleSystem.bmp
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleSystem.bmp
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleSystem.xpm
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleSystem.xpm
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleSystems.bmp
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleSystems.bmp
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleSystems.xpm
+C:/Computer Science/CS499/Wickbert/wxModeler/bitmaps/ParticleSystems.xpm
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindOpenGL.cmake
+C:/Computer Science/CS499/Wickbert/CMake/Modules/FindwxW.cmake

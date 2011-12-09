@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleStuff.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleStuffParameters.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleAttribute.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleBehavior.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleShader.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParFileManager.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_pbuffer.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="pstools.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="svd.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\AdaptiveRepulsionData.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\Contours.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\DuplicateParticlesAlongNormal.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\FaceOrientation.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\FacePosition.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ImplicitInterrogator.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ImplicitInterrogatorCached.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\LightPosition.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\MeshInterrogator.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\OBJPosition.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleAcceleration.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleAge.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleBoundingBox.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleDensity.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleDesiredOrientation.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleEigen.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleLocality.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleLocalityGrid.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleMaterial.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleMesh.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleNormal.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleOrientation.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticlePosition.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleScalar.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleVector.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleVelocity.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ParticleVisibility.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\SurfaceInterrogator.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\UniformDistribution.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\VertexOrientation.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\VertexPosition.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\VertexScalar.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes\ViewDependence.cpp">
+      <Filter>Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\AccelerationIntegrator.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\AsymmetricRepulsion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\CurveAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\DeCarloSuggestiveContourAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\FeatureDetector.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\KDPropagation.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\KeepInBounds.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\ParabolicsAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\ParticleCreation.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\ParticleFate.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\ParticleFateContour.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\ParticleRepulsion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\ParticleRepulsionContour.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\ParticleValueDeath.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\ShadowAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\ShadowDetector.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\SilhouetteAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\SilhouetteDetector.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\SingularityAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\SingularityRepulsion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\SpecularAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\SuggestiveContourAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\SuggestiveContourStabilization.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\SurfaceAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\SurfaceDeformation.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\SurfacePropagation.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\TwoImplicitIntersectionAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviors\ViscousDynamics.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\CopyParticle.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\FindFirstIntersectionWithImplicitsShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\IntervalSubdivision.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\OrientParticle.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ParticleShaderCylinder.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ParticleShaderDisk.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ParticleShaderDiskVisibility.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ParticleShaderGradientField.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ParticleShaderLink.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ParticleShaderSphere.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ParticleShaderText.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ParticleShaderTriangle.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ParticleShaderVoronoi.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ParticleShaderVoronoiPhong.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Rainbow.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderAnimation.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderBoundingBox.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderContour.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderContourSimple.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderDeCarloSuggestiveContour.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderIntersectionContour.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderMeshRenderer.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderParabolicsContour.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderProcessSurfaceEvent.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderShadowContour.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderSilhouetteContour.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderSilhouetteSimple.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderSpecularContour.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderSuggestiveContour.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderSurfaceInterrogation.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShowCell.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\UseMaterial.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\UseMaterialSwitch.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Particles.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleStuff.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleStuffParameters.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleAttribute.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleBehavior.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleShader.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParFileManager.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_pbuffer.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="pstools.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="svd.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\AdaptiveRepulsionData.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\Contours.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\DuplicateParticlesAlongNormal.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\FaceOrientation.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\FacePosition.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ImplicitInterrogator.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ImplicitInterrogatorCached.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\LightPosition.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\MeshInterrogator.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\OBJPosition.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleAcceleration.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleAge.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleBoundingBox.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleDensity.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleDesiredOrientation.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleEigen.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleLocality.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleLocalityGrid.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleMaterial.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleMesh.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleNormal.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleOrientation.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticlePosition.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleScalar.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleVector.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleVelocity.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ParticleVisibility.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\SurfaceInterrogator.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\UniformDistribution.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\VertexOrientation.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\VertexPosition.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\VertexScalar.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\ViewDependence.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\AccelerationIntegrator.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\AsymmetricRepulsion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\CurveAdhesion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\DeCarloSuggestiveContourAdhesion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\FeatureDetector.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\KDPropagation.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\KeepInBounds.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\ParabolicsAdhesion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\ParticleCreation.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\ParticleFate.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\ParticleFateContour.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\ParticleRepulsion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\ParticleRepulsionContour.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\ParticleValueDeath.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\ShadowAdhesion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\ShadowDetector.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\SilhouetteAdhesion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\SilhouetteDetector.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\SingularityAdhesion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\SingularityRepulsion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\SpecularAdhesion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\SuggestiveContourAdhesion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\SuggestiveContourStabilization.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\SurfaceAdhesion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\SurfaceDeformation.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\SurfacePropagation.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\TwoImplicitIntersectionAdhesion.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviors\ViscousDynamics.h">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\CopyParticle.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\FindFirstIntersectionWithImplicitsShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\IntervalSubdivision.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\OrientParticle.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ParticleShaderCylinder.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ParticleShaderDisk.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ParticleShaderDiskVisibility.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ParticleShaderGradientField.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ParticleShaderLink.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ParticleShaderSphere.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ParticleShaderText.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ParticleShaderTriangle.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ParticleShaderVoronoi.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ParticleShaderVoronoiPhong.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Rainbow.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderAnimation.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderBoundingBox.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderContour.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderContourSimple.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderDeCarloSuggestiveContour.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderIntersectionContour.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderMeshRenderer.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderParabolicsContour.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderProcessSurfaceEvent.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderShadowContour.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderSilhouetteContour.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderSilhouetteSimple.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderSpecularContour.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderSuggestiveContour.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderSurfaceInterrogation.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShowCell.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\UseMaterial.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\UseMaterialSwitch.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{C2F05E2A-791C-413A-89D4-2AE4A1B009B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Attributes">
+      <UniqueIdentifier>{D2062597-3B8D-4B95-9F69-558DC1D20C9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behaviors">
+      <UniqueIdentifier>{A2749BF1-FAED-4AF1-A17A-FF5F61C2D1E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{98D391E6-D341-4300-B2A6-C9E3B438A5D5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Particles.cpp">
+      <Filter>Particles</Filter>
+    </None>
+    <None Include="ParticleStuff.cpp">
+      <Filter>Particles</Filter>
+    </None>
+    <None Include="ParticleStuffParameters.cpp">
+      <Filter>Particles</Filter>
+    </None>
+    <None Include="ParticleAttribute.cpp">
+      <Filter>Particles</Filter>
+    </None>
+    <None Include="ParticleBehavior.cpp">
+      <Filter>Particles</Filter>
+    </None>
+    <None Include="ParticleShader.cpp">
+      <Filter>Particles</Filter>
+    </None>
+    <None Include="ParticleSystem.cpp">
+      <Filter>Particles</Filter>
+    </None>
+    <None Include="ParFileManager.cpp">
+      <Filter>Particles</Filter>
+    </None>
+    <None Include="nv_pbuffer.cpp">
+      <Filter>Particles</Filter>
+    </None>
+    <None Include="pstools.cpp">
+      <Filter>Particles</Filter>
+    </None>
+    <None Include="svd.cpp">
+      <Filter>Particles</Filter>
+    </None>
+    <None Include="Attributes\AdaptiveRepulsionData.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\Contours.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\DuplicateParticlesAlongNormal.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\FaceOrientation.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\FacePosition.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ImplicitInterrogator.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ImplicitInterrogatorCached.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\LightPosition.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\MeshInterrogator.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\OBJPosition.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleAcceleration.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleAge.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleBoundingBox.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleDensity.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleDesiredOrientation.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleEigen.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleLocality.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleLocalityGrid.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleMaterial.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleMesh.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleNormal.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleOrientation.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticlePosition.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleScalar.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleVector.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleVelocity.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ParticleVisibility.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\SurfaceInterrogator.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\UniformDistribution.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\VertexOrientation.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\VertexPosition.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\VertexScalar.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Attributes\ViewDependence.cpp">
+      <Filter>Attributes</Filter>
+    </None>
+    <None Include="Behaviors\AccelerationIntegrator.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\AsymmetricRepulsion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\CurveAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\DeCarloSuggestiveContourAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\FeatureDetector.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\KDPropagation.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\KeepInBounds.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\ParabolicsAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\ParticleCreation.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\ParticleFate.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\ParticleFateContour.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\ParticleRepulsion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\ParticleRepulsionContour.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\ParticleValueDeath.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\ShadowAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\ShadowDetector.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\SilhouetteAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\SilhouetteDetector.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\SingularityAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\SingularityRepulsion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\SpecularAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\SuggestiveContourAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\SuggestiveContourStabilization.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\SurfaceAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\SurfaceDeformation.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\SurfacePropagation.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\TwoImplicitIntersectionAdhesion.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Behaviors\ViscousDynamics.cpp">
+      <Filter>Behaviors</Filter>
+    </None>
+    <None Include="Shaders\CopyParticle.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\FindFirstIntersectionWithImplicitsShader.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\IntervalSubdivision.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\OrientParticle.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticleShaderCylinder.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticleShaderDisk.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticleShaderDiskVisibility.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticleShaderGradientField.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticleShaderLink.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticleShaderSphere.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticleShaderText.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticleShaderTriangle.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticleShaderVoronoi.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ParticleShaderVoronoiPhong.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Rainbow.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderAnimation.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderBoundingBox.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderContour.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderContourSimple.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderDeCarloSuggestiveContour.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderIntersectionContour.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderMeshRenderer.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderParabolicsContour.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderProcessSurfaceEvent.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderShadowContour.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderSilhouetteContour.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderSilhouetteSimple.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderSpecularContour.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderSuggestiveContour.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShaderSurfaceInterrogation.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ShowCell.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\UseMaterial.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\UseMaterialSwitch.cpp">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

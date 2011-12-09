@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfParam.cpp">
+      <Filter>Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="itoa.cpp">
+      <Filter>Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="IMatrix.cpp">
+      <Filter>Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="gmTNTconvert.cpp">
+      <Filter>Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomStream.cpp">
+      <Filter>Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="ThinPlateSpline.cpp">
+      <Filter>Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenMesh\ClusterMesh.cpp">
+      <Filter>OpenMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenMesh\TriMesh.cpp">
+      <Filter>OpenMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Icosahedral.cpp">
+      <Filter>Implicit</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Implicit.cpp">
+      <Filter>Implicit</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\ImpFileManager.cpp">
+      <Filter>Implicit</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\ITKImplicit.cpp">
+      <Filter>Implicit</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\VTKImplicit.cpp">
+      <Filter>Implicit</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\polygonizer.cpp">
+      <Filter>Implicit</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Algebraic\Algebraic.cpp">
+      <Filter>Algebraic</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Algebraic\Cone.cpp">
+      <Filter>Algebraic</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Algebraic\Cylinder.cpp">
+      <Filter>Algebraic</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Algebraic\Ellipsoid.cpp">
+      <Filter>Algebraic</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Algebraic\Quadric.cpp">
+      <Filter>Algebraic</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Algebraic\Torus.cpp">
+      <Filter>Algebraic</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Geometric\Plane.cpp">
+      <Filter>Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Geometric\Point.cpp">
+      <Filter>Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Geometric\Segment.cpp">
+      <Filter>Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Geometric\Sphere.cpp">
+      <Filter>Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Blob\Blinn.cpp">
+      <Filter>Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Blob\Wyvill.cpp">
+      <Filter>Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\MLS\AlexaImplicit.cpp">
+      <Filter>MLS</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\MLS\KolluriImplicit.cpp">
+      <Filter>MLS</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\MLS\MLSSurface.cpp">
+      <Filter>MLS</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\MLS\ProjNormImplicit.cpp">
+      <Filter>MLS</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\AIntersection.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\ASubtraction.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\AUnion.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\BinaryOp.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\Blend.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\Blobby.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\Complement.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\Convolution.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\CSGIntersection.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\CSGUnion.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\Difference.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\DirectionalDerivative.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\GradFdotV.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\ImpList.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\Intersection.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\KDOp.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\Mover.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\Offset.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\ParabolicPoints.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\Product.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\RadialCurvature.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\RFunction.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\RotatedImplicit.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\SpecularSurface.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\SuggestiveSurface.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\Sum.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\UnaryOp.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\Union.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Operator\ZeroGaussianCurvature.cpp">
+      <Filter>Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Variational\AdaptiveCSRBF.cpp">
+      <Filter>Variational</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Variational\AdaptiveCSRBF_Precomp.cpp">
+      <Filter>Variational</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Variational\CompactRBF.cpp">
+      <Filter>Variational</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Variational\InterfaceRBF.cpp">
+      <Filter>Variational</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Variational\MultiscaleCSRBF.cpp">
+      <Filter>Variational</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Variational\RBF.cpp">
+      <Filter>Variational</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Variational\RBFBasicFunctionsAndSelector.cpp">
+      <Filter>Variational</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Variational\RBFInterpolant.cpp">
+      <Filter>Variational</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\Variational\SurfletCompactRBF.cpp">
+      <Filter>Variational</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\DistanceField\adf.cpp">
+      <Filter>  DistanceField</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\DistanceField\DistanceField.cpp">
+      <Filter>  DistanceField</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\DistanceField\sparsescalarlattice.cxx">
+      <Filter>  DistanceField</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\DistanceField\cachingsparsescalarlattice.cxx">
+      <Filter>  DistanceField</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\DistanceField\trianglemesh2.cxx">
+      <Filter>  DistanceField</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\DistanceField\scalarlattice.cxx">
+      <Filter>  DistanceField</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\DistanceField\triangle.cxx">
+      <Filter>  DistanceField</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\DistanceField\boundingvolume.cxx">
+      <Filter>  DistanceField</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\DistanceField\signeddistancetransform.cxx">
+      <Filter>  DistanceField</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\DistanceField\trianglenearestpoint.cxx">
+      <Filter>  DistanceField</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit\DistanceField\opengl_utils.cxx">
+      <Filter>  DistanceField</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Surface.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfParam.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interval.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="itoa.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="IMatrix.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="KDTree.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="gmTNTconvert.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomStream.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="ThinPlateSpline.h">
+      <Filter>Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenMesh\ClusterMesh.h">
+      <Filter>OpenMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenMesh\ClusterMeshTraits.h">
+      <Filter>OpenMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenMesh\OpenMeshUtility.h">
+      <Filter>OpenMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenMesh\ParticleMeshTraits.h">
+      <Filter>OpenMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenMesh\SurfaceMesh.h">
+      <Filter>OpenMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenMesh\TriMesh.h">
+      <Filter>OpenMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Icosahedral.h">
+      <Filter>Implicit</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Implicit.h">
+      <Filter>Implicit</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\ImpFileManager.h">
+      <Filter>Implicit</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\ITKImplicit.h">
+      <Filter>Implicit</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\VTKImplicit.h">
+      <Filter>Implicit</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\polygonizer.h">
+      <Filter>Implicit</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\pixmaps.h">
+      <Filter>Implicit</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Algebraic\Algebraic.h">
+      <Filter>Algebraic</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Algebraic\Cone.h">
+      <Filter>Algebraic</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Algebraic\Cylinder.h">
+      <Filter>Algebraic</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Algebraic\Ellipsoid.h">
+      <Filter>Algebraic</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Algebraic\Quadric.h">
+      <Filter>Algebraic</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Algebraic\Torus.h">
+      <Filter>Algebraic</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Geometric\Geometric.h">
+      <Filter>Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Geometric\Plane.h">
+      <Filter>Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Geometric\Point.h">
+      <Filter>Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Geometric\Segment.h">
+      <Filter>Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Geometric\Sphere.h">
+      <Filter>Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Blob\Blinn.h">
+      <Filter>Blob</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Blob\Blob.h">
+      <Filter>Blob</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Blob\Wyvill.h">
+      <Filter>Blob</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\MLS\AlexaImplicit.h">
+      <Filter>MLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\MLS\Constants.h">
+      <Filter>MLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\MLS\Kernel.h">
+      <Filter>MLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\MLS\KolluriImplicit.h">
+      <Filter>MLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\MLS\MLSSurface.h">
+      <Filter>MLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\MLS\ProjNormImplicit.h">
+      <Filter>MLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\MLS\SpaceDef.h">
+      <Filter>MLS</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\ABlend.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\BinaryOp.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Blend.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Blobby.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\CSGIntersection.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\CSGUnion.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Complement.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Convolution.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Difference.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\DirectionalDerivative.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\GradFdotV.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\ImpList.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Intersection.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\KDOp.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\KDTreeXin.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Mover.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Offset.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\ParabolicPoints.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Product.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\RFunction.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\RadialCurvature.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\RotatedImplicit.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\SpecularSurface.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Subtraction.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\SuggestiveSurface.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Sum.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\UnaryOp.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\Union.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Operator\ZeroGaussianCurvature.h">
+      <Filter>Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Variational\AdaptiveCSRBF.h">
+      <Filter>Variational</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Variational\AdaptiveCSRBF_Precomp.h">
+      <Filter>Variational</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Variational\CompactRBF.h">
+      <Filter>Variational</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Variational\InterfaceRBF.h">
+      <Filter>Variational</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Variational\MultiscaleCSRBF.h">
+      <Filter>Variational</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Variational\RBF.h">
+      <Filter>Variational</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Variational\RBFBasicFunctionsAndSelector.h">
+      <Filter>Variational</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Variational\RBFInterpolant.h">
+      <Filter>Variational</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\Variational\SurfletCompactRBF.h">
+      <Filter>Variational</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\adf.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\algo.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\bits.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\boundingvolume.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\cachingsparsescalarlattice.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\cell.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\defs.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\DistanceField.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\extractsurface.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\gltools.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\index.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\kdtree.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\matrix3d.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\mdsimhash.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\opengl.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\opengl_utils.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\particle.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\particleplacer.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\ray.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\renderable.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\scalar.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\scalarlattice.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\selectable.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\signeddistancetransform.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\sparsescalarlattice.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\spatialmap.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\stopwatch.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\tetmesh.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\triangle.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\triangleboxoverlap.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\trianglemesh2.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\trianglenearestpoint.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\utils.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\vector2d.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\vector3d.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\vector4d.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+    <ClInclude Include="Implicit\DistanceField\viewwindow.h">
+      <Filter>  DistanceField</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Surface">
+      <UniqueIdentifier>{71620B35-77B9-46AD-A670-FA2F10F2F9B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenMesh">
+      <UniqueIdentifier>{E6FAB383-563D-40D5-9810-5CB8EC683CAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implicit">
+      <UniqueIdentifier>{E024865B-AE06-4D2D-8CD7-12358D67F8C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algebraic">
+      <UniqueIdentifier>{85E7626B-D00C-4241-A809-BDB2DC9DDA60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometric">
+      <UniqueIdentifier>{E1B2271A-C146-4886-B1E9-6E20CEE8BAF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blob">
+      <UniqueIdentifier>{F2AF2038-E1A3-4175-A671-3E8BB5B1B1F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MLS">
+      <UniqueIdentifier>{DAF55238-70E0-42C8-A2DD-10874290F028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operator">
+      <UniqueIdentifier>{CF17900C-038A-45E3-95D4-BADD3442D34E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variational">
+      <UniqueIdentifier>{A335EB37-021F-4A1A-AACF-140B88BB3BAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="  DistanceField">
+      <UniqueIdentifier>{766AA71A-D1D6-419F-9338-25FC06DBEAA4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Surface.cpp">
+      <Filter>Surface</Filter>
+    </None>
+    <None Include="SurfParam.cpp">
+      <Filter>Surface</Filter>
+    </None>
+    <None Include="itoa.cpp">
+      <Filter>Surface</Filter>
+    </None>
+    <None Include="Box.cpp">
+      <Filter>Surface</Filter>
+    </None>
+    <None Include="IMatrix.cpp">
+      <Filter>Surface</Filter>
+    </None>
+    <None Include="gmTNTconvert.cpp">
+      <Filter>Surface</Filter>
+    </None>
+    <None Include="RandomStream.cpp">
+      <Filter>Surface</Filter>
+    </None>
+    <None Include="ThinPlateSpline.cpp">
+      <Filter>Surface</Filter>
+    </None>
+    <None Include="OpenMesh\ClusterMesh.cpp">
+      <Filter>OpenMesh</Filter>
+    </None>
+    <None Include="OpenMesh\TriMesh.cpp">
+      <Filter>OpenMesh</Filter>
+    </None>
+    <None Include="Implicit\Icosahedral.cpp">
+      <Filter>Implicit</Filter>
+    </None>
+    <None Include="Implicit\Implicit.cpp">
+      <Filter>Implicit</Filter>
+    </None>
+    <None Include="Implicit\ImpFileManager.cpp">
+      <Filter>Implicit</Filter>
+    </None>
+    <None Include="Implicit\ITKImplicit.cpp">
+      <Filter>Implicit</Filter>
+    </None>
+    <None Include="Implicit\VTKImplicit.cpp">
+      <Filter>Implicit</Filter>
+    </None>
+    <None Include="Implicit\polygonizer.cpp">
+      <Filter>Implicit</Filter>
+    </None>
+    <None Include="Implicit\Algebraic\Algebraic.cpp">
+      <Filter>Algebraic</Filter>
+    </None>
+    <None Include="Implicit\Algebraic\Cone.cpp">
+      <Filter>Algebraic</Filter>
+    </None>
+    <None Include="Implicit\Algebraic\Cylinder.cpp">
+      <Filter>Algebraic</Filter>
+    </None>
+    <None Include="Implicit\Algebraic\Ellipsoid.cpp">
+      <Filter>Algebraic</Filter>
+    </None>
+    <None Include="Implicit\Algebraic\Quadric.cpp">
+      <Filter>Algebraic</Filter>
+    </None>
+    <None Include="Implicit\Algebraic\Torus.cpp">
+      <Filter>Algebraic</Filter>
+    </None>
+    <None Include="Implicit\Geometric\Plane.cpp">
+      <Filter>Geometric</Filter>
+    </None>
+    <None Include="Implicit\Geometric\Point.cpp">
+      <Filter>Geometric</Filter>
+    </None>
+    <None Include="Implicit\Geometric\Segment.cpp">
+      <Filter>Geometric</Filter>
+    </None>
+    <None Include="Implicit\Geometric\Sphere.cpp">
+      <Filter>Geometric</Filter>
+    </None>
+    <None Include="Implicit\Blob\Blinn.cpp">
+      <Filter>Blob</Filter>
+    </None>
+    <None Include="Implicit\Blob\Wyvill.cpp">
+      <Filter>Blob</Filter>
+    </None>
+    <None Include="Implicit\MLS\AlexaImplicit.cpp">
+      <Filter>MLS</Filter>
+    </None>
+    <None Include="Implicit\MLS\KolluriImplicit.cpp">
+      <Filter>MLS</Filter>
+    </None>
+    <None Include="Implicit\MLS\MLSSurface.cpp">
+      <Filter>MLS</Filter>
+    </None>
+    <None Include="Implicit\MLS\ProjNormImplicit.cpp">
+      <Filter>MLS</Filter>
+    </None>
+    <None Include="Implicit\Operator\AIntersection.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\ASubtraction.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\AUnion.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\BinaryOp.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\Blend.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\Blobby.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\Complement.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\Convolution.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\CSGIntersection.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\CSGUnion.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\Difference.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\DirectionalDerivative.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\GradFdotV.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\ImpList.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\Intersection.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\KDOp.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\Mover.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\Offset.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\ParabolicPoints.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\Product.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\RadialCurvature.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\RFunction.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\RotatedImplicit.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\SpecularSurface.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\SuggestiveSurface.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\Sum.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\UnaryOp.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\Union.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Operator\ZeroGaussianCurvature.cpp">
+      <Filter>Operator</Filter>
+    </None>
+    <None Include="Implicit\Variational\AdaptiveCSRBF.cpp">
+      <Filter>Variational</Filter>
+    </None>
+    <None Include="Implicit\Variational\AdaptiveCSRBF_Precomp.cpp">
+      <Filter>Variational</Filter>
+    </None>
+    <None Include="Implicit\Variational\CompactRBF.cpp">
+      <Filter>Variational</Filter>
+    </None>
+    <None Include="Implicit\Variational\InterfaceRBF.cpp">
+      <Filter>Variational</Filter>
+    </None>
+    <None Include="Implicit\Variational\MultiscaleCSRBF.cpp">
+      <Filter>Variational</Filter>
+    </None>
+    <None Include="Implicit\Variational\RBF.cpp">
+      <Filter>Variational</Filter>
+    </None>
+    <None Include="Implicit\Variational\RBFBasicFunctionsAndSelector.cpp">
+      <Filter>Variational</Filter>
+    </None>
+    <None Include="Implicit\Variational\RBFInterpolant.cpp">
+      <Filter>Variational</Filter>
+    </None>
+    <None Include="Implicit\Variational\SurfletCompactRBF.cpp">
+      <Filter>Variational</Filter>
+    </None>
+    <None Include="Implicit\DistanceField\adf.cpp">
+      <Filter>  DistanceField</Filter>
+    </None>
+    <None Include="Implicit\DistanceField\DistanceField.cpp">
+      <Filter>  DistanceField</Filter>
+    </None>
+    <None Include="Implicit\DistanceField\sparsescalarlattice.cxx">
+      <Filter>  DistanceField</Filter>
+    </None>
+    <None Include="Implicit\DistanceField\cachingsparsescalarlattice.cxx">
+      <Filter>  DistanceField</Filter>
+    </None>
+    <None Include="Implicit\DistanceField\trianglemesh2.cxx">
+      <Filter>  DistanceField</Filter>
+    </None>
+    <None Include="Implicit\DistanceField\scalarlattice.cxx">
+      <Filter>  DistanceField</Filter>
+    </None>
+    <None Include="Implicit\DistanceField\triangle.cxx">
+      <Filter>  DistanceField</Filter>
+    </None>
+    <None Include="Implicit\DistanceField\boundingvolume.cxx">
+      <Filter>  DistanceField</Filter>
+    </None>
+    <None Include="Implicit\DistanceField\signeddistancetransform.cxx">
+      <Filter>  DistanceField</Filter>
+    </None>
+    <None Include="Implicit\DistanceField\trianglenearestpoint.cxx">
+      <Filter>  DistanceField</Filter>
+    </None>
+    <None Include="Implicit\DistanceField\opengl_utils.cxx">
+      <Filter>  DistanceField</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/wickbert/!svn/ver/484/branches/psparam/Surface/Implicit/MLS
+END
+SpaceDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/wickbert/!svn/ver/257/branches/psparam/Surface/Implicit/MLS/SpaceDef.h
+END
+Constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/MLS/Constants.h
+END
+ProjNormImplicit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/wickbert/!svn/ver/448/branches/psparam/Surface/Implicit/MLS/ProjNormImplicit.cpp
+END
+KolluriImplicit.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/450/branches/psparam/Surface/Implicit/MLS/KolluriImplicit.h
+END
+MLSSurface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/484/branches/psparam/Surface/Implicit/MLS/MLSSurface.cpp
+END
+AlexaImplicit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/448/branches/psparam/Surface/Implicit/MLS/AlexaImplicit.cpp
+END
+Kernel.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/wickbert/!svn/ver/450/branches/psparam/Surface/Implicit/MLS/Kernel.h
+END
+ProjNormImplicit.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/448/branches/psparam/Surface/Implicit/MLS/ProjNormImplicit.h
+END
+MLSSurface.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/wickbert/!svn/ver/481/branches/psparam/Surface/Implicit/MLS/MLSSurface.h
+END
+AlexaImplicit.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/wickbert/!svn/ver/448/branches/psparam/Surface/Implicit/MLS/AlexaImplicit.h
+END
+KolluriImplicit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/wickbert/!svn/ver/450/branches/psparam/Surface/Implicit/MLS/KolluriImplicit.cpp
+END

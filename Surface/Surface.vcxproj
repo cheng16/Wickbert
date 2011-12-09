@@ -1,0 +1,409 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{4A95CF5E-B087-40B0-859B-C65DAF9B1DFA}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Surface</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Computer Science\CS499\Wickbert\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Surface.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Surface</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Computer Science\CS499\Wickbert\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Surface.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Surface</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Computer Science\CS499\Wickbert\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Surface.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Surface</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Computer Science\CS499\Wickbert\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Surface.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Surface</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/Debug/Surface.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/Release/Surface.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/MinSizeRel/Surface.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WINDOWS;WIN32;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/Computer Science/CS499/Wickbert/bin/RelWithDebInfo/Surface.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw;C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Surface/Implicit/DistanceField;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/Surface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\Surface\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Computer Science/CS499/Wickbert/Surface/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Surface\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Surface\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Computer Science\CS499\Wickbert\Surface\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/Surface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\Surface\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Computer Science/CS499/Wickbert/Surface/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Surface\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Surface\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Computer Science\CS499\Wickbert\Surface\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/Surface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\Surface\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Computer Science/CS499/Wickbert/Surface/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Surface\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Surface\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Computer Science\CS499\Wickbert\Surface\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Computer Science/CS499/Wickbert/Surface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Computer Science/CS499/Wickbert" "-BC:/Computer Science/CS499/Wickbert" --check-stamp-file "C:\Computer Science\CS499\Wickbert\Surface\CMakeFiles\generate.stamp"
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Computer Science/CS499/Wickbert/Surface/CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Surface\CMakeLists.txt;C:\Computer Science\CS499\Wickbert\Surface\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Computer Science\CS499\Wickbert\Surface\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Surface.cpp" />
+    <ClInclude Include="Surface.h" />
+    <ClCompile Include="SurfParam.cpp" />
+    <ClInclude Include="SurfParam.h" />
+    <ClInclude Include="Interval.h" />
+    <ClCompile Include="itoa.cpp" />
+    <ClInclude Include="itoa.h" />
+    <ClCompile Include="Box.cpp" />
+    <ClInclude Include="Box.h" />
+    <ClCompile Include="IMatrix.cpp" />
+    <ClInclude Include="IMatrix.h" />
+    <ClInclude Include="KDTree.h" />
+    <ClCompile Include="gmTNTconvert.cpp" />
+    <ClInclude Include="gmTNTconvert.h" />
+    <ClCompile Include="RandomStream.cpp" />
+    <ClInclude Include="RandomStream.h" />
+    <ClCompile Include="ThinPlateSpline.cpp" />
+    <ClInclude Include="ThinPlateSpline.h" />
+    <ClCompile Include="OpenMesh\ClusterMesh.cpp" />
+    <ClInclude Include="OpenMesh\ClusterMesh.h" />
+    <ClInclude Include="OpenMesh\ClusterMeshTraits.h" />
+    <ClInclude Include="OpenMesh\OpenMeshUtility.h" />
+    <ClInclude Include="OpenMesh\ParticleMeshTraits.h" />
+    <ClInclude Include="OpenMesh\SurfaceMesh.h" />
+    <ClCompile Include="OpenMesh\TriMesh.cpp" />
+    <ClInclude Include="OpenMesh\TriMesh.h" />
+    <ClCompile Include="Implicit\Icosahedral.cpp" />
+    <ClInclude Include="Implicit\Icosahedral.h" />
+    <ClCompile Include="Implicit\Implicit.cpp" />
+    <ClInclude Include="Implicit\Implicit.h" />
+    <ClCompile Include="Implicit\ImpFileManager.cpp" />
+    <ClInclude Include="Implicit\ImpFileManager.h" />
+    <ClCompile Include="Implicit\ITKImplicit.cpp" />
+    <ClInclude Include="Implicit\ITKImplicit.h" />
+    <ClCompile Include="Implicit\VTKImplicit.cpp" />
+    <ClInclude Include="Implicit\VTKImplicit.h" />
+    <ClCompile Include="Implicit\polygonizer.cpp" />
+    <ClInclude Include="Implicit\polygonizer.h" />
+    <ClInclude Include="Implicit\pixmaps.h" />
+    <ClCompile Include="Implicit\Algebraic\Algebraic.cpp" />
+    <ClInclude Include="Implicit\Algebraic\Algebraic.h" />
+    <ClCompile Include="Implicit\Algebraic\Cone.cpp" />
+    <ClInclude Include="Implicit\Algebraic\Cone.h" />
+    <ClCompile Include="Implicit\Algebraic\Cylinder.cpp" />
+    <ClInclude Include="Implicit\Algebraic\Cylinder.h" />
+    <ClCompile Include="Implicit\Algebraic\Ellipsoid.cpp" />
+    <ClInclude Include="Implicit\Algebraic\Ellipsoid.h" />
+    <ClCompile Include="Implicit\Algebraic\Quadric.cpp" />
+    <ClInclude Include="Implicit\Algebraic\Quadric.h" />
+    <ClCompile Include="Implicit\Algebraic\Torus.cpp" />
+    <ClInclude Include="Implicit\Algebraic\Torus.h" />
+    <ClInclude Include="Implicit\Geometric\Geometric.h" />
+    <ClCompile Include="Implicit\Geometric\Plane.cpp" />
+    <ClInclude Include="Implicit\Geometric\Plane.h" />
+    <ClCompile Include="Implicit\Geometric\Point.cpp" />
+    <ClInclude Include="Implicit\Geometric\Point.h" />
+    <ClCompile Include="Implicit\Geometric\Segment.cpp" />
+    <ClInclude Include="Implicit\Geometric\Segment.h" />
+    <ClCompile Include="Implicit\Geometric\Sphere.cpp" />
+    <ClInclude Include="Implicit\Geometric\Sphere.h" />
+    <ClCompile Include="Implicit\Blob\Blinn.cpp" />
+    <ClInclude Include="Implicit\Blob\Blinn.h" />
+    <ClInclude Include="Implicit\Blob\Blob.h" />
+    <ClCompile Include="Implicit\Blob\Wyvill.cpp" />
+    <ClInclude Include="Implicit\Blob\Wyvill.h" />
+    <ClCompile Include="Implicit\MLS\AlexaImplicit.cpp" />
+    <ClInclude Include="Implicit\MLS\AlexaImplicit.h" />
+    <ClInclude Include="Implicit\MLS\Constants.h" />
+    <ClInclude Include="Implicit\MLS\Kernel.h" />
+    <ClCompile Include="Implicit\MLS\KolluriImplicit.cpp" />
+    <ClInclude Include="Implicit\MLS\KolluriImplicit.h" />
+    <ClCompile Include="Implicit\MLS\MLSSurface.cpp" />
+    <ClInclude Include="Implicit\MLS\MLSSurface.h" />
+    <ClCompile Include="Implicit\MLS\ProjNormImplicit.cpp" />
+    <ClInclude Include="Implicit\MLS\ProjNormImplicit.h" />
+    <ClInclude Include="Implicit\MLS\SpaceDef.h" />
+    <ClInclude Include="Implicit\Operator\ABlend.h" />
+    <ClCompile Include="Implicit\Operator\AIntersection.cpp" />
+    <ClCompile Include="Implicit\Operator\ASubtraction.cpp" />
+    <ClCompile Include="Implicit\Operator\AUnion.cpp" />
+    <ClCompile Include="Implicit\Operator\BinaryOp.cpp" />
+    <ClInclude Include="Implicit\Operator\BinaryOp.h" />
+    <ClCompile Include="Implicit\Operator\Blend.cpp" />
+    <ClInclude Include="Implicit\Operator\Blend.h" />
+    <ClCompile Include="Implicit\Operator\Blobby.cpp" />
+    <ClInclude Include="Implicit\Operator\Blobby.h" />
+    <ClInclude Include="Implicit\Operator\CSGIntersection.h" />
+    <ClInclude Include="Implicit\Operator\CSGUnion.h" />
+    <ClCompile Include="Implicit\Operator\Complement.cpp" />
+    <ClInclude Include="Implicit\Operator\Complement.h" />
+    <ClCompile Include="Implicit\Operator\Convolution.cpp" />
+    <ClCompile Include="Implicit\Operator\CSGIntersection.cpp" />
+    <ClCompile Include="Implicit\Operator\CSGUnion.cpp" />
+    <ClInclude Include="Implicit\Operator\Convolution.h" />
+    <ClCompile Include="Implicit\Operator\Difference.cpp" />
+    <ClInclude Include="Implicit\Operator\Difference.h" />
+    <ClCompile Include="Implicit\Operator\DirectionalDerivative.cpp" />
+    <ClInclude Include="Implicit\Operator\DirectionalDerivative.h" />
+    <ClCompile Include="Implicit\Operator\GradFdotV.cpp" />
+    <ClInclude Include="Implicit\Operator\GradFdotV.h" />
+    <ClCompile Include="Implicit\Operator\ImpList.cpp" />
+    <ClInclude Include="Implicit\Operator\ImpList.h" />
+    <ClCompile Include="Implicit\Operator\Intersection.cpp" />
+    <ClInclude Include="Implicit\Operator\Intersection.h" />
+    <ClCompile Include="Implicit\Operator\KDOp.cpp" />
+    <ClInclude Include="Implicit\Operator\KDOp.h" />
+    <ClInclude Include="Implicit\Operator\KDTreeXin.h" />
+    <ClCompile Include="Implicit\Operator\Mover.cpp" />
+    <ClInclude Include="Implicit\Operator\Mover.h" />
+    <ClCompile Include="Implicit\Operator\Offset.cpp" />
+    <ClInclude Include="Implicit\Operator\Offset.h" />
+    <ClCompile Include="Implicit\Operator\ParabolicPoints.cpp" />
+    <ClInclude Include="Implicit\Operator\ParabolicPoints.h" />
+    <ClCompile Include="Implicit\Operator\Product.cpp" />
+    <ClInclude Include="Implicit\Operator\Product.h" />
+    <ClInclude Include="Implicit\Operator\RFunction.h" />
+    <ClCompile Include="Implicit\Operator\RadialCurvature.cpp" />
+    <ClCompile Include="Implicit\Operator\RFunction.cpp" />
+    <ClInclude Include="Implicit\Operator\RadialCurvature.h" />
+    <ClCompile Include="Implicit\Operator\RotatedImplicit.cpp" />
+    <ClInclude Include="Implicit\Operator\RotatedImplicit.h" />
+    <ClCompile Include="Implicit\Operator\SpecularSurface.cpp" />
+    <ClInclude Include="Implicit\Operator\SpecularSurface.h" />
+    <ClInclude Include="Implicit\Operator\Subtraction.h" />
+    <ClCompile Include="Implicit\Operator\SuggestiveSurface.cpp" />
+    <ClInclude Include="Implicit\Operator\SuggestiveSurface.h" />
+    <ClCompile Include="Implicit\Operator\Sum.cpp" />
+    <ClInclude Include="Implicit\Operator\Sum.h" />
+    <ClCompile Include="Implicit\Operator\UnaryOp.cpp" />
+    <ClInclude Include="Implicit\Operator\UnaryOp.h" />
+    <ClCompile Include="Implicit\Operator\Union.cpp" />
+    <ClInclude Include="Implicit\Operator\Union.h" />
+    <ClCompile Include="Implicit\Operator\ZeroGaussianCurvature.cpp" />
+    <ClInclude Include="Implicit\Operator\ZeroGaussianCurvature.h" />
+    <ClCompile Include="Implicit\Variational\AdaptiveCSRBF.cpp" />
+    <ClInclude Include="Implicit\Variational\AdaptiveCSRBF.h" />
+    <ClCompile Include="Implicit\Variational\AdaptiveCSRBF_Precomp.cpp" />
+    <ClInclude Include="Implicit\Variational\AdaptiveCSRBF_Precomp.h" />
+    <ClCompile Include="Implicit\Variational\CompactRBF.cpp" />
+    <ClInclude Include="Implicit\Variational\CompactRBF.h" />
+    <ClCompile Include="Implicit\Variational\InterfaceRBF.cpp" />
+    <ClInclude Include="Implicit\Variational\InterfaceRBF.h" />
+    <ClCompile Include="Implicit\Variational\MultiscaleCSRBF.cpp" />
+    <ClInclude Include="Implicit\Variational\MultiscaleCSRBF.h" />
+    <ClCompile Include="Implicit\Variational\RBF.cpp" />
+    <ClInclude Include="Implicit\Variational\RBF.h" />
+    <ClCompile Include="Implicit\Variational\RBFBasicFunctionsAndSelector.cpp" />
+    <ClInclude Include="Implicit\Variational\RBFBasicFunctionsAndSelector.h" />
+    <ClCompile Include="Implicit\Variational\RBFInterpolant.cpp" />
+    <ClInclude Include="Implicit\Variational\RBFInterpolant.h" />
+    <ClCompile Include="Implicit\Variational\SurfletCompactRBF.cpp" />
+    <ClInclude Include="Implicit\Variational\SurfletCompactRBF.h" />
+    <ClInclude Include="Implicit\DistanceField\adf.h" />
+    <ClInclude Include="Implicit\DistanceField\algo.h" />
+    <ClInclude Include="Implicit\DistanceField\bits.h" />
+    <ClInclude Include="Implicit\DistanceField\boundingvolume.h" />
+    <ClInclude Include="Implicit\DistanceField\cachingsparsescalarlattice.h" />
+    <ClInclude Include="Implicit\DistanceField\cell.h" />
+    <ClInclude Include="Implicit\DistanceField\defs.h" />
+    <ClInclude Include="Implicit\DistanceField\DistanceField.h" />
+    <ClInclude Include="Implicit\DistanceField\extractsurface.h" />
+    <ClInclude Include="Implicit\DistanceField\gltools.h" />
+    <ClInclude Include="Implicit\DistanceField\index.h" />
+    <ClInclude Include="Implicit\DistanceField\kdtree.h" />
+    <ClInclude Include="Implicit\DistanceField\matrix3d.h" />
+    <ClInclude Include="Implicit\DistanceField\mdsimhash.h" />
+    <ClInclude Include="Implicit\DistanceField\opengl.h" />
+    <ClInclude Include="Implicit\DistanceField\opengl_utils.h" />
+    <ClInclude Include="Implicit\DistanceField\particle.h" />
+    <ClInclude Include="Implicit\DistanceField\particleplacer.h" />
+    <ClInclude Include="Implicit\DistanceField\ray.h" />
+    <ClInclude Include="Implicit\DistanceField\renderable.h" />
+    <ClInclude Include="Implicit\DistanceField\scalar.h" />
+    <ClInclude Include="Implicit\DistanceField\scalarlattice.h" />
+    <ClInclude Include="Implicit\DistanceField\selectable.h" />
+    <ClInclude Include="Implicit\DistanceField\signeddistancetransform.h" />
+    <ClInclude Include="Implicit\DistanceField\sparsescalarlattice.h" />
+    <ClInclude Include="Implicit\DistanceField\spatialmap.h" />
+    <ClInclude Include="Implicit\DistanceField\stopwatch.h" />
+    <ClInclude Include="Implicit\DistanceField\tetmesh.h" />
+    <ClInclude Include="Implicit\DistanceField\triangle.h" />
+    <ClInclude Include="Implicit\DistanceField\triangleboxoverlap.h" />
+    <ClInclude Include="Implicit\DistanceField\trianglemesh2.h" />
+    <ClInclude Include="Implicit\DistanceField\trianglenearestpoint.h" />
+    <ClInclude Include="Implicit\DistanceField\utils.h" />
+    <ClInclude Include="Implicit\DistanceField\vector2d.h" />
+    <ClInclude Include="Implicit\DistanceField\vector3d.h" />
+    <ClInclude Include="Implicit\DistanceField\vector4d.h" />
+    <ClInclude Include="Implicit\DistanceField\viewwindow.h" />
+    <ClCompile Include="Implicit\DistanceField\adf.cpp" />
+    <ClCompile Include="Implicit\DistanceField\DistanceField.cpp" />
+    <ClCompile Include="Implicit\DistanceField\sparsescalarlattice.cxx" />
+    <ClCompile Include="Implicit\DistanceField\cachingsparsescalarlattice.cxx" />
+    <ClCompile Include="Implicit\DistanceField\trianglemesh2.cxx" />
+    <ClCompile Include="Implicit\DistanceField\scalarlattice.cxx" />
+    <ClCompile Include="Implicit\DistanceField\triangle.cxx" />
+    <ClCompile Include="Implicit\DistanceField\boundingvolume.cxx" />
+    <ClCompile Include="Implicit\DistanceField\signeddistancetransform.cxx" />
+    <ClCompile Include="Implicit\DistanceField\trianglenearestpoint.cxx" />
+    <ClCompile Include="Implicit\DistanceField\opengl_utils.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Computer Science/CS499/Wickbert/ZERO_CHECK.vcxproj">
+      <Project>455E24B2-A953-4928-AFDD-3678871B8F58</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

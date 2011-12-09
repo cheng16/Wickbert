@@ -1,0 +1,55 @@
+8
+
+dir
+577
+https://graphics.cs.uiuc.edu/svn/wickbert/branches/psparam/sfl/sfl
+https://graphics.cs.uiuc.edu/svn/wickbert
+
+
+
+2006-07-20T23:13:01.053197Z
+448
+stroila2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3629d5b8-15e5-0310-be66-96fd1c3aa567
+
+stdafx.h
+file
+
+
+
+
+2006-12-08T00:03:05.109375Z
+6c283fadac2d7afb4afe60aa122d0aa8
+2006-07-20T23:13:01.053197Z
+448
+stroila2
+
+sfl
+dir
+
+sfl.h
+file
+
+
+
+
+2006-12-08T00:03:05.109375Z
+ef393ec7d2fa8ba95c4bf0e6689a1191
+2006-07-20T23:13:01.053197Z
+448
+stroila2
+

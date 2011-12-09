@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/wickbert/!svn/ver/259/branches/psparam/libgm
+END
+gmMat4.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/wickbert/!svn/ver/41/branches/psparam/libgm/gmMat4.h
+END
+gmConst.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/wickbert/!svn/ver/41/branches/psparam/libgm/gmConst.h
+END
+bool.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/wickbert/!svn/ver/41/branches/psparam/libgm/bool.h
+END
+gmQuat.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/wickbert/!svn/ver/259/branches/psparam/libgm/gmQuat.h
+END
+gmVec2.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/wickbert/!svn/ver/41/branches/psparam/libgm/gmVec2.h
+END
+gmMat3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/wickbert/!svn/ver/41/branches/psparam/libgm/gmMat3.cpp
+END
+gm.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/wickbert/!svn/ver/41/branches/psparam/libgm/gm.h
+END
+gmUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/wickbert/!svn/ver/41/branches/psparam/libgm/gmUtils.h
+END
+gmVec3.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/wickbert/!svn/ver/42/branches/psparam/libgm/gmVec3.h
+END
+gmMat4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/wickbert/!svn/ver/41/branches/psparam/libgm/gmMat4.cpp
+END
+gmVec4.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/wickbert/!svn/ver/41/branches/psparam/libgm/gmVec4.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/wickbert/!svn/ver/201/branches/psparam/libgm/CMakeLists.txt
+END
+gmMat3.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/wickbert/!svn/ver/41/branches/psparam/libgm/gmMat3.h
+END

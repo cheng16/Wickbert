@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/wickbert/!svn/ver/424/branches/psparam/Particles/Shaders/Bonus
+END
+ParticleShaderCurvature.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderCurvature.h
+END
+ParticleShaderCluster.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderCluster.h
+END
+ParticleShaderChain.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderChain.h
+END
+ShaderVectorField.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ShaderVectorField.h
+END
+ParticleShaderCropped.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderCropped.cpp
+END
+ParticleShaderRadialCurvature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderRadialCurvature.cpp
+END
+ParticleShaderCropped.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderCropped.h
+END
+ParticleShaderRadialCurvature.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderRadialCurvature.h
+END
+ParticleShaderConstMaterial.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderConstMaterial.cpp
+END
+ParticleShaderContourHider.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderContourHider.cpp
+END
+ParticleShaderStroke.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderStroke.cpp
+END
+ParticleShaderOriented.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderOriented.cpp
+END
+ParticleShaderDiskDevelop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/wickbert/!svn/ver/341/branches/psparam/Particles/Shaders/Bonus/ParticleShaderDiskDevelop.cpp
+END
+ParticleShaderViewpointStability.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderViewpointStability.cpp
+END
+ParticleShaderContourHider.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderContourHider.h
+END
+ParticleShaderConstMaterial.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderConstMaterial.h
+END
+ParticleShaderVoronoiDevelop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/wickbert/!svn/ver/341/branches/psparam/Particles/Shaders/Bonus/ParticleShaderVoronoiDevelop.cpp
+END
+ShaderSVG.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/424/branches/psparam/Particles/Shaders/Bonus/ShaderSVG.cpp
+END
+ParticleShaderStroke.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderStroke.h
+END
+ParticleShaderViewpointStability.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderViewpointStability.h
+END
+ParticleShaderOriented.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderOriented.h
+END
+ParticleShaderDiskDevelop.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/wickbert/!svn/ver/341/branches/psparam/Particles/Shaders/Bonus/ParticleShaderDiskDevelop.h
+END
+ParticleShaderVoronoiDevelop.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/wickbert/!svn/ver/341/branches/psparam/Particles/Shaders/Bonus/ParticleShaderVoronoiDevelop.h
+END
+ParticleShaderCurvature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderCurvature.cpp
+END
+ShaderSVG.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/424/branches/psparam/Particles/Shaders/Bonus/ShaderSVG.h
+END
+ParticleShaderCluster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderCluster.cpp
+END
+ParticleShaderChain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ParticleShaderChain.cpp
+END
+ShaderVectorField.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/wickbert/!svn/ver/267/branches/psparam/Particles/Shaders/Bonus/ShaderVectorField.cpp
+END

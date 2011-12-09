@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/wickbert/!svn/ver/547/branches/psparam/Surface
+END
+gmTNTconvert.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/gmTNTconvert.h
+END
+SurfParam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wickbert/!svn/ver/481/branches/psparam/Surface/SurfParam.cpp
+END
+itoa.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/wickbert/!svn/ver/241/branches/psparam/Surface/itoa.h
+END
+RandomStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/RandomStream.h
+END
+ThinPlateSpline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/wickbert/!svn/ver/441/branches/psparam/Surface/ThinPlateSpline.cpp
+END
+SurfParam.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/541/branches/psparam/Surface/SurfParam.h
+END
+ThinPlateSpline.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/ThinPlateSpline.h
+END
+Infinite.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/wickbert/!svn/ver/213/branches/psparam/Surface/Infinite.h
+END
+IMatrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/377/branches/psparam/Surface/IMatrix.cpp
+END
+IMatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/wickbert/!svn/ver/377/branches/psparam/Surface/IMatrix.h
+END
+KDTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/wickbert/!svn/ver/436/branches/psparam/Surface/KDTree.h
+END
+Surface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Surface.cpp
+END
+Box.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Box.cpp
+END
+Interval.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/wickbert/!svn/ver/377/branches/psparam/Surface/Interval.h
+END
+gmTNTconvert.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/gmTNTconvert.cpp
+END
+RandomStream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/RandomStream.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/wickbert/!svn/ver/422/branches/psparam/Surface/CMakeLists.txt
+END
+itoa.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/wickbert/!svn/ver/244/branches/psparam/Surface/itoa.cpp
+END
+Box.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/wickbert/!svn/ver/450/branches/psparam/Surface/Box.h
+END
+Surface.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Surface.h
+END

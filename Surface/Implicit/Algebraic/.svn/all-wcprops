@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Algebraic
+END
+Algebraic.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Algebraic/Algebraic.h
+END
+Cylinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Algebraic/Cylinder.h
+END
+Torus.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/Algebraic/Torus.h
+END
+Cone.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Algebraic/Cone.cpp
+END
+Ellipsoid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Algebraic/Ellipsoid.cpp
+END
+Quadric.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/Algebraic/Quadric.cpp
+END
+Ellipsoid.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Algebraic/Ellipsoid.h
+END
+Cone.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Algebraic/Cone.h
+END
+Cylinder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Algebraic/Cylinder.cpp
+END
+Algebraic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/wickbert/!svn/ver/432/branches/psparam/Surface/Implicit/Algebraic/Algebraic.cpp
+END
+Torus.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/Algebraic/Torus.cpp
+END
+Quadric.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/wickbert/!svn/ver/41/branches/psparam/Surface/Implicit/Algebraic/Quadric.h
+END

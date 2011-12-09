@@ -1,0 +1,8 @@
+WXWIDGETS_FOUND: 1
+WXWIDGETS_LINK_DIRECTORIES: C:/wxWidgets/lib/vc_lib
+WXWIDGETS_LIBRARIES: comctl32.lib;wsock32.lib;rpcrt4.lib
+WXWIDGETS_RELEASE_LIBRARIES: wxbase28.lib;wxbase28_net.lib;wxbase28_xml.lib;wxmsw28_adv.lib;wxmsw28_core.lib;wxmsw28_html.lib;wxmsw28_xrc.lib;wxmsw28_gl.lib;wxregex.lib;wxexpat.lib;wxpng.lib;wxtiff.lib;wxjpeg.lib;wxzlib.lib
+WXWIDGETS_DEBUG_LIBRARIES: wxbase28d.lib;wxbase28d_net.lib;wxbase28d_xml.lib;wxmsw28d_adv.lib;wxmsw28d_core.lib;wxmsw28d_html.lib;wxmsw28d_xrc.lib;wxmsw28d_gl.lib;wxregexd.lib;wxexpatd.lib;wxpngd.lib;wxtiffd.lib;wxjpegd.lib;wxzlibd.lib
+WXWIDGETS_CXX_FLAGS: 
+WXWIDGETS_INCLUDE_DIR: C:/wxWidgets/include;C:/wxWidgets/include/../contrib/include;C:/wxWidgets/lib/vc_lib/msw
+WXWIDGETS_DEFINITIONS: -DWINDOWS;-DWIN32;-D__WXMSW__

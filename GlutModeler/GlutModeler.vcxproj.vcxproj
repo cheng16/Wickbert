@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{076D17A4-E3ED-46B0-9E40-28F05871447D}</ProjectGuid>
+    <RootNamespace>GlutDisplay</RootNamespace>
+    <ProjectName>GlutModeler</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>C:\Computer Science\CS499\Wickbert\bin\Debug\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:/Computer Science/CS499/Wickbert/ism;C:/Computer Science/CS499/Wickbert/libgm;C:/Computer Science/CS499/Wickbert/Particles;C:/Computer Science/CS499/Wickbert/Surface;C:/Program Files (x86)/boost/boost_1_44;C:/Program Files;C:/Computer Science/CS499/Wickbert/gsl;/pi;C:/Computer Science/CS499/Wickbert;C:/Computer Science/CS499/Wickbert/Particles/Attributes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;WINDOWS;__WXMSW__;_USE_MATH_DEFINES;NOMINMAX;_WIN32;_HAS_ITERATOR_DEBUGGING=0;_SECURE_SCL=0;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";_LIB;%(PreprocessorDefinitions);_MBCS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libgsl.lib;libgsld.lib;..\bin\Debug\gm.lib;OpenMeshCore.lib;opengl32.lib;glu32.lib;ism.lib;..\bin\Debug\Surface.lib;..\bin\Debug\Particles.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Computer Science\CS499\Wickbert\lib-debug;C:\Computer Science\CS499\Wickbert\lib-release;C:\Computer Science\CS499\Wickbert\lib-debug$(Configuration);C:/Program Files/OpenMesh/Win/msvc7/Core/Debug;C:/Program Files/OpenMesh/Win/msvc7/Core/Release;C:/Computer Science/CS499/Wickbert/bin/Debug;C:/Computer Science/CS499/Wickbert/bin/Debug/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GlutModeler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ism\ism.vcxproj">
+      <Project>{aadb198f-2a4e-40f4-bd47-22cd1a4162d7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libgm\gm.vcxproj">
+      <Project>{83cc78d8-85ad-47a8-acb2-c05e4ea6d5b4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Particles\Particles.vcxproj">
+      <Project>{5a1ee51e-810c-4264-86a6-d9b2bfaa254b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Surface\Surface.vcxproj">
+      <Project>{4a95cf5e-b087-40b0-859b-c65daf9b1dfa}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ZERO_CHECK.vcxproj">
+      <Project>{455e24b2-a953-4928-afdd-3678871b8f58}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlutModeler.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
